@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" data-illustration="usurpation-arp">
+  <defs>
+    <marker id="ar-usurpation-arp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#dc2626"/></marker>
+    <marker id="ag-usurpation-arp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/></marker>
+    <marker id="ab-usurpation-arp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2563eb"/></marker>
+    
+  </defs>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <circle cx="1080" cy="90" r="190" fill="#eff6ff"/>
+  <circle cx="110" cy="610" r="170" fill="#f0fdfa"/>
+<rect x="60" y="70" width="1080" height="540" rx="40" fill="#ffffff" stroke="#e2e8f0" stroke-width="5"/>
+<g transform="translate(140 170)">
+    <rect width="142.5" height="256.5" rx="24.7" fill="#ffffff" stroke="#2563eb" stroke-width="6"/>
+    <rect x="13.299999999999999" y="32.3" width="115.9" height="180.5" rx="7.6" fill="#f8fafc" stroke="#2563eb" stroke-width="2" opacity="0.9"/>
+    <circle cx="71.25" cy="233.7" r="7.6" fill="#2563eb"/>
+    
+  </g>
+<g transform="translate(880 260)">
+    <line x1="52.5" y1="0" x2="31.5" y2="-57.75" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/>
+    <line x1="178.5" y1="0" x2="199.5" y2="-57.75" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/>
+    <rect width="231.0" height="94.5" rx="18.900000000000002" fill="#ffffff" stroke="#0f766e" stroke-width="6"/>
+    <circle cx="47.25" cy="47.25" r="9.450000000000001" fill="#0f766e"/><circle cx="84.0" cy="47.25" r="9.450000000000001" fill="#0f766e" opacity="0.6"/><circle cx="120.75" cy="47.25" r="9.450000000000001" fill="#0f766e" opacity="0.35"/>
+  </g>
+<path d="M310 250 H860" fill="none" stroke="#94a3b8" stroke-width="6" stroke-linecap="round" stroke-dasharray="16 14" marker-end="url(#ag-usurpation-arp)"/>
+<g transform="translate(470 380)">
+    <rect width="255.0" height="161.5" rx="11.9" fill="#ffffff" stroke="#dc2626" stroke-width="6"/>
+    <rect x="13.6" y="13.6" width="227.8" height="134.3" rx="5.1" fill="#f8fafc"/>
+    
+    <path d="M-28.9 171.7 H283.9 L263.5 193.8 H-8.5 Z" fill="#ffffff" stroke="#dc2626" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+<g transform="translate(570 300)">
+    <circle cx="40.0" cy="40.0" r="40.0" fill="#dc2626"/>
+    <path d="M12.0 34.0 C20.0 22.0 34.0 26.0 40.0 34.0 C46.0 26.0 60.0 22.0 68.0 34.0 C66.0 50.0 52.0 54.0 40.0 44.0 C28.0 54.0 14.0 50.0 12.0 34.0 Z" fill="#ffffff"/>
+    <circle cx="27.0" cy="37.0" r="5.0" fill="#dc2626"/><circle cx="53.0" cy="37.0" r="5.0" fill="#dc2626"/>
+  </g>
+<path d="M300 400 C360 470 400 480 440 480" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round" marker-end="url(#ar-usurpation-arp)"/>
+<path d="M770 480 C840 480 890 430 960 390" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round" marker-end="url(#ar-usurpation-arp)"/>
+</svg>

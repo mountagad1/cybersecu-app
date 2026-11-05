@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" data-illustration="detournement-de-session">
+  <defs>
+    <marker id="ar-detournement-de-session" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#dc2626"/></marker>
+    <marker id="ag-detournement-de-session" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/></marker>
+    <marker id="ab-detournement-de-session" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2563eb"/></marker>
+    
+  </defs>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <circle cx="1080" cy="90" r="190" fill="#eff6ff"/>
+  <circle cx="110" cy="610" r="170" fill="#f0fdfa"/>
+<g transform="translate(90 210)"><rect width="380" height="270" rx="18" fill="#ffffff" stroke="#2563eb" stroke-width="6"/>
+          <line x1="0" y1="56" x2="380" y2="56" stroke="#2563eb" stroke-width="4"/><circle cx="30" cy="28" r="8" fill="#2563eb"/><circle cx="56" cy="28" r="8" fill="#2563eb" opacity="0.6"/><circle cx="82" cy="28" r="8" fill="#2563eb" opacity="0.35"/>
+          <g transform="translate(40 86)">
+    <circle cx="39.0" cy="29.25" r="26.0" fill="#ffffff" stroke="#2563eb" stroke-width="6"/>
+    <path d="M0 130.0 C0 78.0 78.0 78.0 78.0 130.0" fill="#ffffff" stroke="#2563eb" stroke-width="6" stroke-linecap="round"/>
+  </g>
+          <line x1="150" y1="110" x2="340.0" y2="110" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/><line x1="150" y1="136" x2="305.8" y2="136" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/><line x1="150" y1="162" x2="340.0" y2="162" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/><line x1="150" y1="188" x2="305.8" y2="188" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+          <g transform="translate(290 -34)"><rect width="78" height="64" rx="12" fill="#2563eb" stroke="#2563eb" stroke-width="5"/><circle cx="24" cy="32" r="10" fill="#ffffff" stroke="#2563eb" stroke-width="4"/><line x1="40" y1="24" x2="64" y2="24" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/><line x1="40" y1="40" x2="58" y2="40" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/></g></g>
+<g transform="translate(730 210)"><rect width="380" height="270" rx="18" fill="#ffffff" stroke="#dc2626" stroke-width="6"/>
+          <line x1="0" y1="56" x2="380" y2="56" stroke="#dc2626" stroke-width="4"/><circle cx="30" cy="28" r="8" fill="#dc2626"/><circle cx="56" cy="28" r="8" fill="#dc2626" opacity="0.6"/><circle cx="82" cy="28" r="8" fill="#dc2626" opacity="0.35"/>
+          <g transform="translate(40 86)">
+    <circle cx="39.0" cy="29.25" r="26.0" fill="#ffffff" stroke="#2563eb" stroke-width="6"/>
+    <path d="M0 130.0 C0 78.0 78.0 78.0 78.0 130.0" fill="#ffffff" stroke="#2563eb" stroke-width="6" stroke-linecap="round"/>
+  </g>
+          <line x1="150" y1="110" x2="340.0" y2="110" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/><line x1="150" y1="136" x2="305.8" y2="136" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/><line x1="150" y1="162" x2="340.0" y2="162" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/><line x1="150" y1="188" x2="305.8" y2="188" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+          <g transform="translate(290 -34)"><rect width="78" height="64" rx="12" fill="#dc2626" stroke="#dc2626" stroke-width="5"/><circle cx="24" cy="32" r="10" fill="#ffffff" stroke="#dc2626" stroke-width="4"/><line x1="40" y1="24" x2="64" y2="24" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/><line x1="40" y1="40" x2="58" y2="40" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/></g></g>
+<g transform="translate(1060 520)">
+    <circle cx="40.0" cy="40.0" r="40.0" fill="#dc2626"/>
+    <path d="M12.0 34.0 C20.0 22.0 34.0 26.0 40.0 34.0 C46.0 26.0 60.0 22.0 68.0 34.0 C66.0 50.0 52.0 54.0 40.0 44.0 C28.0 54.0 14.0 50.0 12.0 34.0 Z" fill="#ffffff"/>
+    <circle cx="27.0" cy="37.0" r="5.0" fill="#dc2626"/><circle cx="53.0" cy="37.0" r="5.0" fill="#dc2626"/>
+  </g>
+<path d="M500 200 C600 120 700 120 810 170" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round" marker-end="url(#ar-detournement-de-session)"/>
+<g transform="translate(540 380)"><g transform="translate(0 0) rotate(0)">
+    <circle cx="16.0" cy="16.0" r="14.4" fill="none" stroke="#475569" stroke-width="4.800000000000001"/>
+    <path d="M30.400000000000002 16.0 H80.0 M64.0 16.0 V30.400000000000002 M76.80000000000001 16.0 V27.200000000000003" stroke="#475569" stroke-width="4.800000000000001" stroke-linecap="round" fill="none"/>
+  </g><line x1="-6" y1="44" x2="90" y2="-8" stroke="#dc2626" stroke-width="7" stroke-linecap="round"/></g>
+<g transform="translate(560 470)"><rect width="76" height="50" rx="10" fill="#ffffff" stroke="#475569" stroke-width="5"/><circle cx=14 cy=25 r=5 fill="#475569"/><circle cx=30 cy=25 r=5 fill="#475569"/><circle cx=46 cy=25 r=5 fill="#475569"/><circle cx=62 cy=25 r=5 fill="#475569"/><line x1="-8" y1="58" x2="84" y2="-8" stroke="#dc2626" stroke-width="7" stroke-linecap="round"/></g>
+</svg>

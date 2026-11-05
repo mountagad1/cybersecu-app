@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" role="img" aria-labelledby="cybersecu-logo-title">
+  <title id="cybersecu-logo-title">cybersecu.app</title>
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="55%" stop-color="#1c4ed8" />
+      <stop offset="100%" stop-color="#0fb5ae" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M100 6 L188 40 V104 C188 156 150 196 100 214 C50 196 12 156 12 104 V40 Z"
+    fill="#0b1220"
+  />
+  <path
+    d="M100 6 L188 40 V104 C188 156 150 196 100 214 V6 Z"
+    fill="url(#shieldGradient)"
+  />
+  <rect x="72" y="96" width="56" height="46" rx="8" fill="#ffffff" />
+  <path
+    d="M82 96 V80 a18 18 0 0 1 36 0 V96"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="12"
+    stroke-linecap="round"
+  />
+  <circle cx="100" cy="115" r="7" fill="#0b1220" />
+  <rect x="97" y="118" width="6" height="14" rx="3" fill="#0b1220" />
+</svg>

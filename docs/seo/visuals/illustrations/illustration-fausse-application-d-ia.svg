@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" data-illustration="fausse-application-d-ia">
+  <defs>
+    <marker id="ar-fausse-application-d-ia" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#dc2626"/></marker>
+    <marker id="ag-fausse-application-d-ia" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/></marker>
+    <marker id="ab-fausse-application-d-ia" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2563eb"/></marker>
+    
+  </defs>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <circle cx="1080" cy="90" r="190" fill="#eff6ff"/>
+  <circle cx="110" cy="610" r="170" fill="#f0fdfa"/>
+<g transform="translate(200 150)">
+    <rect width="187.5" height="337.5" rx="32.5" fill="#ffffff" stroke="#2563eb" stroke-width="6"/>
+    <rect x="17.5" y="42.5" width="152.5" height="237.5" rx="10.0" fill="#f8fafc" stroke="#2563eb" stroke-width="2" opacity="0.9"/>
+    <circle cx="93.75" cy="307.5" r="10.0" fill="#2563eb"/>
+    <g transform="scale(1.25)"><rect x="24" y="48" width="30" height="30" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/><rect x="64" y="48" width="30" height="30" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/><rect x="104" y="48" width="30" height="30" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/><rect x="24" y="94" width="30" height="30" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/><rect x="64" y="94" width="30" height="30" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="3"/><path d="M79 99 C80.5 107.5 80.5 107.5 89 109 C80.5 110.5 80.5 110.5 79 119 C77.5 110.5 77.5 110.5 69 109 C77.5 107.5 77.5 107.5 79 99 Z" fill="#dc2626"/><rect x="104" y="94" width="30" height="30" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/><rect x="24" y="140" width="30" height="30" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/><rect x="64" y="140" width="30" height="30" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/><rect x="104" y="140" width="30" height="30" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/></g>
+  </g>
+<g transform="translate(560 120)"><path d="M60 6 C68.1 51.9 68.1 51.9 114 60 C68.1 68.1 68.1 68.1 60 114 C51.9 68.1 51.9 68.1 6 60 C51.9 51.9 51.9 51.9 60 6 Z" fill="#dc2626"/></g>
+<g transform="translate(900 300)"><rect y="0.0" width="171.0" height="55.099999999999994" rx="9.5" fill="#ffffff" stroke="#dc2626" stroke-width="6"/><circle cx="28.5" cy="27.549999999999997" r="7.6" fill="#dc2626"/><line x1="57.0" y1="27.549999999999997" x2="142.5" y2="27.549999999999997" stroke="#dc2626" stroke-width="4" stroke-linecap="round" opacity="0.5"/><rect y="66.5" width="171.0" height="55.099999999999994" rx="9.5" fill="#ffffff" stroke="#dc2626" stroke-width="6"/><circle cx="28.5" cy="94.05" r="7.6" fill="#dc2626"/><line x1="57.0" y1="94.05" x2="142.5" y2="94.05" stroke="#dc2626" stroke-width="4" stroke-linecap="round" opacity="0.5"/><rect y="133.0" width="171.0" height="55.099999999999994" rx="9.5" fill="#ffffff" stroke="#dc2626" stroke-width="6"/><circle cx="28.5" cy="160.55" r="7.6" fill="#dc2626"/><line x1="57.0" y1="160.55" x2="142.5" y2="160.55" stroke="#dc2626" stroke-width="4" stroke-linecap="round" opacity="0.5"/></g>
+<path d="M440 330 C600 300 760 320 880 360" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round" marker-end="url(#ar-fausse-application-d-ia)"/>
+<path d="M440 430 C600 450 760 450 880 440" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round" marker-end="url(#ar-fausse-application-d-ia)"/>
+<g transform="translate(600 280) rotate(-6)">
+    <circle cx="18.0" cy="18.0" r="16.2" fill="none" stroke="#2563eb" stroke-width="5.4"/>
+    <path d="M34.2 18.0 H90.0 M72.0 18.0 V34.2 M86.4 18.0 V30.6" stroke="#2563eb" stroke-width="5.4" stroke-linecap="round" fill="none"/>
+  </g>
+<g transform="translate(610 430)"><path d="M0 12 H34 L44 24 H80 V70 H0 Z" fill="#ffffff" stroke="#2563eb" stroke-width="5" stroke-linejoin="round"/></g>
+</svg>

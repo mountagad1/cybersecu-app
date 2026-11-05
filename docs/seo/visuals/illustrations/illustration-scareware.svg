@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" data-illustration="scareware">
+  <defs>
+    <marker id="ar-scareware" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#dc2626"/></marker>
+    <marker id="ag-scareware" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/></marker>
+    <marker id="ab-scareware" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2563eb"/></marker>
+    
+  </defs>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <circle cx="1080" cy="90" r="190" fill="#eff6ff"/>
+  <circle cx="110" cy="610" r="170" fill="#f0fdfa"/>
+<g transform="translate(330 150)">
+    <rect width="525.0" height="332.5" rx="24.5" fill="#ffffff" stroke="#2563eb" stroke-width="6"/>
+    <rect x="28.0" y="28.0" width="469.0" height="276.5" rx="10.5" fill="#f8fafc"/>
+    <g transform="scale(0.98)"><rect x="40" y="36" width="440" height="260" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="5"/>
+      <g transform="translate(200 70)"><g transform="translate(0 0)">
+    <path d="M60.0 0 L120.0 104.0 H0 Z" fill="#dc2626" stroke="#dc2626" stroke-width="8.0" stroke-linejoin="round"/>
+    <rect x="54.0" y="30.0" width="12.0" height="42.0" rx="6.0" fill="#ffffff"/>
+    <circle cx="60.0" cy="86.0" r="7.0" fill="#ffffff"/>
+  </g></g>
+      <rect x="150" y="200" width="220" height="56" rx="28" fill="#dc2626"/>
+      <path d="M232 228 h56 M272 214 l16 14 l-16 14" stroke="#ffffff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <path d="M-59.5 353.5 H584.5 L542.5 399.0 H-17.5 Z" fill="#ffffff" stroke="#2563eb" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+<g transform="translate(990 400)"><circle cx="80" cy="80" r="80" fill="#ffffff" stroke="#dc2626" stroke-width="6"/>
+      <path d="M38 52 H58 L72 112 H122 L134 70 H64" fill="none" stroke="#dc2626" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="80" cy="128" r="8" fill="#dc2626"/><circle cx="114" cy="128" r="8" fill="#dc2626"/></g>
+<path d="M290 230 q-30 40 0 80 M250 210 q-50 60 0 120" stroke="#dc2626" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+<path d="M910 230 q30 40 0 80 M950 210 q50 60 0 120" stroke="#dc2626" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+</svg>

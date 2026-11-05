@@ -1,0 +1,8 @@
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver
+# Security: GHSA-68fv-2mgg-jv7q (source-map-js < 1.2.2), pulled in by
+# next > postcss and @tailwindcss/node, which pin 1.2.1. Drop once both
+# depend on >= 1.2.2. docs/audit/SECURITY_PRIVACY_AUDIT.md.
+overrides:
+  source-map-js: ">=1.2.2"

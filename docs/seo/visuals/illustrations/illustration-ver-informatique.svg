@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" data-illustration="ver-informatique">
+  <defs>
+    <marker id="ar-ver-informatique" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#dc2626"/></marker>
+    <marker id="ag-ver-informatique" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/></marker>
+    <marker id="ab-ver-informatique" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2563eb"/></marker>
+    
+  </defs>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <circle cx="1080" cy="90" r="190" fill="#eff6ff"/>
+  <circle cx="110" cy="610" r="170" fill="#f0fdfa"/>
+<g transform="translate(90 150)">
+    <rect width="255.0" height="161.5" rx="11.9" fill="#ffffff" stroke="#dc2626" stroke-width="6"/>
+    <rect x="13.6" y="13.6" width="227.8" height="134.3" rx="5.1" fill="#f8fafc"/>
+    <g transform="translate(95 45)"><g transform="translate(0 0)">
+    <path d="M36.0 0 L72.0 62.4 H0 Z" fill="#dc2626" stroke="#dc2626" stroke-width="4.8" stroke-linejoin="round"/>
+    <rect x="32.4" y="18.0" width="7.199999999999999" height="25.2" rx="3.5999999999999996" fill="#ffffff"/>
+    <circle cx="36.0" cy="51.6" r="4.2" fill="#ffffff"/>
+  </g></g>
+    <path d="M-28.9 171.7 H283.9 L263.5 193.8 H-8.5 Z" fill="#ffffff" stroke="#dc2626" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+<g transform="translate(460 90)">
+    <rect width="255.0" height="161.5" rx="11.9" fill="#ffffff" stroke="#dc2626" stroke-width="6"/>
+    <rect x="13.6" y="13.6" width="227.8" height="134.3" rx="5.1" fill="#f8fafc"/>
+    <g transform="translate(95 45)"><g transform="translate(0 0)">
+    <path d="M36.0 0 L72.0 62.4 H0 Z" fill="#dc2626" stroke="#dc2626" stroke-width="4.8" stroke-linejoin="round"/>
+    <rect x="32.4" y="18.0" width="7.199999999999999" height="25.2" rx="3.5999999999999996" fill="#ffffff"/>
+    <circle cx="36.0" cy="51.6" r="4.2" fill="#ffffff"/>
+  </g></g>
+    <path d="M-28.9 171.7 H283.9 L263.5 193.8 H-8.5 Z" fill="#ffffff" stroke="#dc2626" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+<g transform="translate(830 150)">
+    <rect width="255.0" height="161.5" rx="11.9" fill="#ffffff" stroke="#2563eb" stroke-width="6"/>
+    <rect x="13.6" y="13.6" width="227.8" height="134.3" rx="5.1" fill="#f8fafc"/>
+    <line x1="40" y1="50" x2="190.0" y2="50" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/><line x1="40" y1="76" x2="163.0" y2="76" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/><line x1="40" y1="102" x2="190.0" y2="102" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-28.9 171.7 H283.9 L263.5 193.8 H-8.5 Z" fill="#ffffff" stroke="#2563eb" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+<g transform="translate(270 410)">
+    <rect width="255.0" height="161.5" rx="11.9" fill="#ffffff" stroke="#dc2626" stroke-width="6"/>
+    <rect x="13.6" y="13.6" width="227.8" height="134.3" rx="5.1" fill="#f8fafc"/>
+    <g transform="translate(95 45)"><g transform="translate(0 0)">
+    <path d="M36.0 0 L72.0 62.4 H0 Z" fill="#dc2626" stroke="#dc2626" stroke-width="4.8" stroke-linejoin="round"/>
+    <rect x="32.4" y="18.0" width="7.199999999999999" height="25.2" rx="3.5999999999999996" fill="#ffffff"/>
+    <circle cx="36.0" cy="51.6" r="4.2" fill="#ffffff"/>
+  </g></g>
+    <path d="M-28.9 171.7 H283.9 L263.5 193.8 H-8.5 Z" fill="#ffffff" stroke="#dc2626" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+<g transform="translate(650 410)">
+    <rect width="255.0" height="161.5" rx="11.9" fill="#ffffff" stroke="#2563eb" stroke-width="6"/>
+    <rect x="13.6" y="13.6" width="227.8" height="134.3" rx="5.1" fill="#f8fafc"/>
+    <line x1="40" y1="50" x2="190.0" y2="50" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/><line x1="40" y1="76" x2="163.0" y2="76" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/><line x1="40" y1="102" x2="190.0" y2="102" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-28.9 171.7 H283.9 L263.5 193.8 H-8.5 Z" fill="#ffffff" stroke="#2563eb" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+<path d="M360 230 C400 200 420 190 450 180" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round" marker-end="url(#ar-ver-informatique)"/>
+<path d="M260 330 C270 360 290 380 310 400" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round" marker-end="url(#ar-ver-informatique)"/>
+<path d="M560 300 C580 350 620 380 660 400" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round" stroke-dasharray="16 14" marker-end="url(#ar-ver-informatique)"/>
+<path d="M730 180 C770 190 790 200 820 220" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round" stroke-dasharray="16 14" marker-end="url(#ar-ver-informatique)"/>
+<g transform="translate(1020 470)"><circle cx="60" cy="60" r="62" fill="#ffffff" stroke="#475569" stroke-width="5"/>
+      <path d="M40 28 L40 92 L56 78 L68 102 L80 96 L68 72 L90 72 Z" fill="#ffffff" stroke="#475569" stroke-width="5" stroke-linejoin="round"/>
+      <line x1="18" y1="102" x2="102" y2="18" stroke="#dc2626" stroke-width="8" stroke-linecap="round"/></g>
+</svg>

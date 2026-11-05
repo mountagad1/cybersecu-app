@@ -1,0 +1,229 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0b1220;
+
+  --brand-navy: #0b1220;
+  --brand-blue: #2563eb;
+  --brand-teal: #0fb5ae;
+  /* Teal dark enough to be read as text on white (5.47:1, WCAG AA).
+     The brand teal itself is 2.55:1 on white: backgrounds and decoration
+     only (docs/seo/COMPLETE_SEO_AUDIT.md CA-01). */
+  --brand-teal-strong: #0f766e;
+
+  --color-primary: var(--brand-blue);
+  --color-primary-foreground: #ffffff;
+  --color-secondary: var(--brand-teal);
+  /* Navy on teal is 7.35:1; white on teal was 2.55:1. */
+  --color-secondary-foreground: var(--brand-navy);
+  --color-secondary-strong: var(--brand-teal-strong);
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #475569;
+  --color-border: #e2e8f0;
+  --color-card: #ffffff;
+  --color-card-foreground: var(--brand-navy);
+
+  --color-danger: #dc2626;
+  --color-danger-foreground: #ffffff;
+  --color-success: #16a34a;
+  --color-success-foreground: #ffffff;
+  --color-warning: #d97706;
+  --color-warning-foreground: #ffffff;
+
+  --radius: 0.75rem;
+
+  /* Forces the light palette everywhere, mobile included, regardless of
+     the device's system theme — the product intentionally does not
+     offer a dark mode yet (see below). */
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+  --color-secondary-strong: var(--color-secondary-strong);
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-border: var(--color-border);
+  --color-card: var(--color-card);
+  --color-card-foreground: var(--color-card-foreground);
+  --color-danger: var(--color-danger);
+  --color-danger-foreground: var(--color-danger-foreground);
+  --color-success: var(--color-success);
+  --color-success-foreground: var(--color-success-foreground);
+  --color-warning: var(--color-warning);
+  --color-warning-foreground: var(--color-warning-foreground);
+  --font-sans: var(--font-inter);
+  --font-handwriting: var(--font-caveat);
+  --radius-lg: var(--radius);
+}
+
+/* Dark mode is deliberately not offered yet: keeping the site on the
+   single light palette above avoids mobile visitors landing on a
+   half-themed dark variant (a past version briefly flipped background
+   to navy under prefers-color-scheme: dark, which read as "the old
+   version" — this is the fix). Revisit as a real, fully-designed dark
+   theme, not a silent system-driven toggle. */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Never rely on color alone to communicate risk: every risk state also
+   carries an icon + text label in the components that use these tokens. */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-blue);
+  outline-offset: 2px;
+}
+
+/* A link inside running text is told apart by more than its color
+   (WCAG 1.4.1): blue on the muted grey of body copy is only 1.47:1.
+   Lists of links, cards and buttons are not running text and keep their
+   own styling (docs/seo/COMPLETE_SEO_AUDIT.md CA-06). */
+main p a:not([class*="inline-flex"]) {
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+}
+
+/* Decorative snowfall behind the "Reflex Mountain" section
+   (src/components/home/reflex-mountain-section.tsx) — purely
+   atmospheric, never carries information, so it's fully hidden under
+   prefers-reduced-motion rather than left to snap to its end frame. */
+@keyframes reflex-mountain-snowfall {
+  0% {
+    transform: translate3d(0, -8px, 0);
+    opacity: 0;
+  }
+  12% {
+    opacity: var(--snow-opacity, 0.35);
+  }
+  85% {
+    opacity: var(--snow-opacity, 0.35);
+  }
+  100% {
+    transform: translate3d(var(--snow-drift, 16px), 420px, 0);
+    opacity: 0;
+  }
+}
+
+.reflex-mountain-snowfall span {
+  position: absolute;
+  top: 0;
+  left: var(--snow-left, 0);
+  width: var(--snow-size, 4px);
+  height: var(--snow-size, 4px);
+  border-radius: 9999px;
+  background: var(--color-primary);
+  opacity: 0;
+  animation: reflex-mountain-snowfall var(--snow-duration, 12s) linear var(--snow-delay, 0s) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reflex-mountain-snowfall {
+    display: none;
+  }
+}
+
+/* Home hero (src/components/home/scam-reveal-hero.tsx): a faint grid and a
+   blue-to-teal glow behind the scene, both purely decorative. */
+.hero-grid {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 80% 70% at 60% 40%, black, transparent 75%);
+}
+
+.hero-glow {
+  background:
+    radial-gradient(40rem 28rem at 78% 45%, color-mix(in srgb, var(--brand-blue) 32%, transparent), transparent 70%),
+    radial-gradient(26rem 20rem at 92% 85%, color-mix(in srgb, var(--brand-teal) 22%, transparent), transparent 70%),
+    radial-gradient(30rem 22rem at 5% 0%, color-mix(in srgb, var(--brand-blue) 14%, transparent), transparent 70%);
+}
+
+/* Each line of the hero copy rises in a beat after the one before. The <h1>
+   is deliberately left out so the page's LCP element is painted at once. */
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.hero-rise {
+  animation: hero-rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) var(--rise-delay, 0s) both;
+}
+
+/* The global reduced-motion rule shortens durations but keeps delays, which
+   would leave the copy invisible for a moment: drop the animation instead. */
+@media (prefers-reduced-motion: reduce) {
+  .hero-rise {
+    animation: none;
+  }
+}
+
+/* Particle background of the home hero. It sits behind the copy, so it
+   stays faint where text is: dimmer on phones (the copy spans the full
+   width), and from `lg` up a veil fades it behind the left column.
+   The fade is a static gradient laid over the canvas, not a mask-image on
+   it: a mask on a layer that repaints every frame is re-applied every
+   frame, which halved the frame rate on desktop. */
+.hero-particles {
+  opacity: 0.45;
+}
+
+.hero-particles-veil {
+  background: linear-gradient(to bottom, rgb(11 18 32 / 0.45), transparent 70%);
+}
+
+@media (min-width: 1024px) {
+  .hero-particles {
+    opacity: 0.8;
+  }
+
+  .hero-particles-veil {
+    background: linear-gradient(to right, rgb(11 18 32 / 0.7) 10%, transparent 55%);
+  }
+}
+
+/* DarkStage (src/components/home/dark-stage.tsx): the hero's backdrop for
+   taller bands of content, so the glow is spread over the height instead
+   of sitting behind one scene. */
+.stage-glow {
+  background:
+    radial-gradient(36rem 30rem at 15% 12%, color-mix(in srgb, var(--brand-blue) 24%, transparent), transparent 70%),
+    radial-gradient(34rem 28rem at 88% 50%, color-mix(in srgb, var(--brand-teal) 16%, transparent), transparent 70%),
+    radial-gradient(36rem 30rem at 25% 92%, color-mix(in srgb, var(--brand-blue) 20%, transparent), transparent 70%);
+}
+
+/* Particles stay faint here: the band is mostly text and cards. */
+.stage-particles {
+  opacity: 0.5;
+}
+
+@media (min-width: 1024px) {
+  .stage-particles {
+    opacity: 0.65;
+  }
+}

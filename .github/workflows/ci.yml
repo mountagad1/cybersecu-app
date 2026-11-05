@@ -1,0 +1,43 @@
+# The checks a contributor runs locally, on every pull request and every
+# push to main (docs/quality/QUALITY_BASELINE.md). No secrets: the build
+# needs no environment variable (content lives in the repository,
+# docs/decisions/0007), and nothing here deploys — Vercel does that.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      # Version read from `packageManager` in package.json.
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm build
+      # SEO checks read the build output; they fail on errors, not warnings.
+      - run: pnpm seo:metadata
+      - run: pnpm seo:images
+      - run: pnpm seo:audit
+      # Output that every retained Vercel deployment stores (docs/finops/vercel).
+      - run: pnpm size:check
+      # Known vulnerabilities in what ships (dev tooling is reported, not blocking).
+      - run: pnpm audit --prod --audit-level high

@@ -4,7 +4,7 @@
 
 Cybersecu ([www.cybersecu.app](https://www.cybersecu.app)) is a cybersecurity education platform for the general public. It explains how common attacks work (phishing, smishing, fake tech support, bank impersonation, account takeover and more) and lets people practise spotting them in interactive simulations, without an account. The site is in French and English.
 
-> **Status:** live in production. The repository is private and has no licence file: the code is not open source.
+> **Status:** live in production at [www.cybersecu.app](https://www.cybersecu.app). This public repository is a snapshot of the application code, published for reading. It has no licence file: all rights are reserved and the code is not open source.
 
 ## Why it exists
 
